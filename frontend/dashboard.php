@@ -107,7 +107,8 @@ include('../backend/dashboard.php');
       <div class="col-lg-8">
         <div class="row">
           <div class="col-md-6" style="animation-delay: 0.2s">
-            <div class="stats-card">
+            <div class="stats-card" style="background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);">
               <div class="text-center">
                 <i class="fas fa-users stats-icon"></i>
                 <div class="stats-number"><?php echo $total_students; ?></div>
@@ -116,7 +117,8 @@ include('../backend/dashboard.php');
             </div>
           </div>
           <div class="col-md-6" style="animation-delay: 0.3s">
-            <div class="stats-card">
+            <div class="stats-card" style="background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);">
               <div class="text-center">
                 <i class="fas fa-book stats-icon"></i>
                 <div class="stats-number"><?php echo $total_books; ?></div>
@@ -125,7 +127,8 @@ include('../backend/dashboard.php');
             </div>
           </div>
           <div class="col-md-6" style="animation-delay: 0.4s">
-            <div class="stats-card">
+            <div class="stats-card" style="background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);">
               <div class="text-center">
                 <i class="fas fa-exchange-alt stats-icon"></i>
                 <div class="stats-number"><?php echo $total_loans; ?></div>
@@ -134,7 +137,8 @@ include('../backend/dashboard.php');
             </div>
           </div>
           <div class="col-md-6" style="animation-delay: 0.5s">
-            <div class="stats-card">
+            <div class="stats-card" style="background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);">
               <div class="text-center">
                 <i class="fas fa-clock stats-icon"></i>
                 <div class="stats-number"><?php echo $total_pending_returns; ?></div>
